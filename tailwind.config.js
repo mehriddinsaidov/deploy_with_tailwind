@@ -1,11 +1,11 @@
- /** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} */
 export default {
-   content: ["./src/**/*.{html,js}"],
-   theme: {
-     extend: {},
-     screens:{
-      'md':{max:'510px'}
-     }
-   },
-   plugins: [],
- }
+  content: ["./src/**/*.{html,js}", "./index.html"],
+  theme: {
+    extend: {},
+    screens: {
+      'md': { max: '510px' }
+    }
+  },
+  plugins: [],
+}
